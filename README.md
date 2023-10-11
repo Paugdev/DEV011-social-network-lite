@@ -296,6 +296,8 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
 
 ## 4. Consideraciones generales
 
+* El rango de tiempo estimado para completar el proyecto es de 4 a 5 Sprints.
+
 * La lógica del proyecto debe estar implementada completamente en JavaScript
   (ES6+), HTML y CSS :smiley:. Para este proyecto **no está permitido** utilizar
   _frameworks_ o librerías de CSS y JS.
@@ -357,12 +359,10 @@ una de tus Historias de Usuario debe tener:
 
   - Debe ser una SPA.
   - Debe ser _responsive_.
-  - Deben haber recibido _code review_ de al menos una compañera de otro equipo.
-  - Hicieron los _test_ unitarios
-  - Testearon manualmente buscando errores e imperfecciones simples.
-  - Hicieron _pruebas_ de usabilidad e incorporaron el _feedback_ de los
+  - Hizo los _test_ unitarios
+  - Testeaste manualmente buscando errores e imperfecciones simples.
+  - Hizo _pruebas_ de usabilidad e incorporaste el _feedback_ de los
     usuarios como mejoras.
-  - Desplegaron su aplicación y etiquetaron la versión (git tag).
 
 ### 5.4 Diseño de la Interfaz de Usuario (prototipo de baja fidelidad)
 
