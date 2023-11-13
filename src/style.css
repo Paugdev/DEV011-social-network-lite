@@ -1,0 +1,16 @@
+h2{
+    font-family: 'Lucida Sans';
+}
+#sectionHome {
+    display: flex;
+    flex-direction: column;
+}
+
+#sectionHome img {
+    width: 30%;
+}
+
+#botonlogin{
+    border-radius: 10px;
+    border: 2px;
+}
