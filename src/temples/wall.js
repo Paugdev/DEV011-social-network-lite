@@ -2,17 +2,23 @@
 function wall(navigateTo) {
     const section = document.createElement('section');
     const title = document.createElement('h2');
-    const button = document.createElement('button');
+    const post = document.createElement('textarea');
+    const buttonPost = document.createElement('button')
+
+    buttonPost.setAttribute ('id', 'postit')
   
-    button.textContent = 'login';
-    button.addEventListener('click', () => {
-      navigateTo('/login');
+    post.textContent = 'post';
+
+    post.addEventListener('keyup', () => {
+      console.log('postear')
     });
   
-    title.textContent = 'Welcome to my project';
-  
-    section.append(title, button);
+    title.textContent = 'Welcome to Vegan & fit';
+    buttonPost.textContent ='Post';
+
+    section.append(title, post, buttonPost);
     return section;
+  
   }
   
   export default wall;

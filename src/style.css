@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Autour+One&display=swap');
+
 h2{
-    font-family: 'Lucida Sans';
+    font-family: 'Autour One';
 }
 #sectionHome {
     display: flex;
@@ -13,4 +15,11 @@ h2{
 #botonlogin{
     border-radius: 10px;
     border: 2px;
+}
+
+#postit{
+    border: 2px;
+    border-radius: 10px;
+    font-family: 'Autour One';
+    position: center;
 }

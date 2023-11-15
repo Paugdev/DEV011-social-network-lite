@@ -18,6 +18,11 @@ function login(navigateTo) {
 
     buttonGoLogin.addEventListener('click', ()=>{
         navigateTo('/login')
+
+    })
+
+    buttonGoRegister.addEventListener('click',()=>{
+        navigateTo('/register')
     })
   
     section.append(imgLogo, buttonGoLogin, buttonGoRegister);

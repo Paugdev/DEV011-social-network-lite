@@ -19,7 +19,9 @@ function login(navigateTo) {
     buttonReturn.addEventListener('click', ()=>{
       navigateTo('/home')
     })
-  
+   buttonLogin.addEventListener('click', ()=>{
+    navigateTo ('/wall')
+   })
     form.append(inputEmail, inputPass, buttonLogin);
     section.append(title, form, buttonReturn);
   
