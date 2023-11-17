@@ -2,7 +2,6 @@ import logo from './images/logo.png'
 
 function login(navigateTo) {
     const section = document.createElement('section');
-
     const imgLogo = document.createElement('img')
     const buttonGoLogin = document.createElement('button');
     const buttonGoRegister = document.createElement('button');
@@ -17,12 +16,12 @@ function login(navigateTo) {
     buttonGoRegister.textContent = 'Ir a Registro';
 
     buttonGoLogin.addEventListener('click', ()=>{
-        navigateTo('/login')
+        navigateTo('/loginPage')
 
     })
 
     buttonGoRegister.addEventListener('click',()=>{
-        navigateTo('/register')
+        navigateTo('/registerPage')
     })
   
     section.append(imgLogo, buttonGoLogin, buttonGoRegister);

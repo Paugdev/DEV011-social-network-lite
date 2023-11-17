@@ -1,16 +1,16 @@
 import home from './temples/home.js';
-import login from './temples/login.js';
+import loginPage from './temples/loginPage.js';
 import error from './temples/error.js';
 import wall from './temples/wall.js';
-import register from './temples/register.js';
+import registerPage from './temples/registerPage.js';
 
 const routes = [
     { path: '/', component: home },
     { path: '/home', component: home },
-    { path: '/login', component: login },
+    { path: '/loginPage', component: loginPage },
     { path: '/error', component: error },
     {path: '/wall', component: wall},
-    {path: '/register', component: register}
+    {path: '/registerPage', component: registerPage}
   ];// slash=asociar una ruta
 
   const defaultRoute = '/';
@@ -42,3 +42,5 @@ function navigateTo(hash) {
   };
   
   navigateTo(window.location.pathname || defaultRoute);
+
+

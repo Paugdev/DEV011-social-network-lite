@@ -1,5 +1,7 @@
 // file login.js
-function login(navigateTo) {
+import { login } from "../lib/services";
+
+function loginPage(navigateTo) {
     const section = document.createElement('section');
     const title = document.createElement('h2');
     const buttonReturn = document.createElement('button');
@@ -28,4 +30,4 @@ function login(navigateTo) {
     return section;
   }
   
-  export default login;
+  export default loginPage;
