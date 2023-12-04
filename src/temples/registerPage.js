@@ -1,31 +1,47 @@
 //activar funcion register con onclick en boton
 import {register} from '../lib/services';
+import logo from './images/logo.png'
+
 
 function registerPage(navigateTo) {
-    const nameTitle = document.createElement('h1')
     const name = document.createElement ('input')
-    const mailTitle = document.createElement('h1')
     const mail = document.createElement('input')
     const section = document.createElement ('section')
     const password = document.createElement('input')
-    const passwordTitle = document.createElement('h1')
-    const buttonregister = document.createElement('h1')
     const buttonGoRegister = document.createElement('button')
+    const imgLogo = document.createElement('img')
+    const form = document.createElement('div')
+    const buttonReturn = document.createElement('button');
 
-    buttonregister.setAttribute('id','registroboton')
+    imgLogo.src = logo
+    imgLogo.setAttribute('id','logo')
+    section.setAttribute('id', 'sectionHome')
+    form.setAttribute('class', 'divform')
+
+    buttonReturn.innerText = 'Return to Home'
+    buttonReturn.setAttribute('id', 'botonreturn')
+    buttonGoRegister.setAttribute('id','registroboton')
     buttonGoRegister.innerText ='Register'
-    mail.setAttribute('id', 'correo')
-    mailTitle.textContent = 'Email';
+    mail.setAttribute('id', 'inputsRegister')
+    name.placeholder = 'name';
+    name.setAttribute('id', 'inputsRegister')
+    mail.placeholder = 'mail'
+    password.placeholder ='Password'
+    password.setAttribute('id', 'inputsRegister')
 
+    buttonReturn.addEventListener('click', ()=>{
+        navigateTo('/home')
+      })
     buttonGoRegister.addEventListener('click',()=>{
+        register(mail.value, password.value)
         navigateTo('/loginPage')
+
     })
 
     
     password.setAttribute('class', 'pass')
-    passwordTitle.textContent = 'Password';
-    nameTitle.textContent = 'name';
-    section.append(name, nameTitle, mail, password, passwordTitle, mailTitle, buttonGoRegister)
+    section.append(imgLogo, form)
+    form.append(name, mail, password, buttonGoRegister, buttonReturn)
     
     return section;
     

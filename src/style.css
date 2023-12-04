@@ -1,26 +1,170 @@
-@import url('https://fonts.googleapis.com/css2?family=Autour+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
 
 h2{
-    font-family: 'Autour One';
+    font-family: 'Comfortaa';
+    font-size: medium;
+    color: rgb(57, 57, 57);
 }
 #sectionHome {
     display: flex;
     flex-direction: column;
 }
 
-#sectionHome img {
-    width: 30%;
-}
 
 #botonlogin{
     border-radius: 10px;
     border: 2px;
+    font-family: 'Comfortaa';
+    color: rgb(62, 62, 62);
+    padding: 10px;
+    background-color: rgb(148, 250, 189);
+    display:block;
+    margin: 10px;
+    
+
 }
 
-#postit{
+
+#botonregister{
+    border-radius: 10px;
+    border: 2px;
+    font-family: 'Comfortaa';
+    color:rgb(47, 47, 46);
+    padding: 10px;
+    background-color: rgb(255, 176, 197);
+    display: block;
+    margin:8px;
+
+}
+
+#registroboton{
     border: 2px;
     border-radius: 10px;
-    font-family: 'Autour One';
+    font-family: 'Comfortaa';
     position: center;
     box-shadow: 10px;
+}
+
+#logo{
+    width: 400px;
+    height: 250px;
+    margin: 0 auto;
+
+}
+
+.inputsform{
+    display: list-item;
+    border-radius: 10px;
+    font-family: 'Comfortaa';
+}
+
+#correo{
+    border-radius: 10px;
+    font-family: 'Comfortaa';
+
+}
+
+.pass{
+    border-radius: 10px;
+    font-family: 'Comfortaa';
+
+}
+.inputlog{
+    border: 1px solid;
+    border-radius: 10px;
+    font-family: 'Comfortaa';
+    padding: 10px;
+    margin:8px;
+    position: center;
+    box-shadow: 10px;
+    display:block;
+}
+    
+.divform{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+#botongo{
+    margin: 0 auto;
+    border-radius: 10px;
+    font-family: 'Comfortaa';
+
+}
+
+#botonreturn{
+    margin: 0 auto;
+    border: 10px;
+    font-family: 'Comfortaa';
+
+}
+
+.loginTitle{
+    position: center;
+}
+
+.imagenlog{
+    width: 400px;
+    height: 250px;
+    margin: 0 auto;
+
+}
+
+.sectionform{
+    display: block;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+#registroboton{
+    margin: 0 auto;
+    border: 10px;
+    font-family: 'Comfortaa';
+
+}
+
+#inputsRegister{
+    border: 1px solid;
+    border-radius: 10px;
+    font-family: 'Comfortaa';
+    padding: 10px;
+    margin:8px;
+    position: center;
+    box-shadow: 10px;
+    display:block;
+}
+
+.pass{
+    margin: 0 auto;
+    border: 10px;
+    font-family: 'Comfortaa';
+}
+
+#correo{
+    margin: 0 auto;
+    border: 10px;
+    font-family: 'Comfortaa';
+    
+}
+
+#textArea{
+    border-radius: 10px;
+    width: 346px;
+    border: 2px solid transparent;
+    height: 63px;
+    resize: none;
+    background-color: rgb(202, 252, 200);
+    color: rgb(49, 49, 49);
+    font-family: 'Comfortaa';
+
+}
+
+
+#postit{
+    font-family: 'Comfortaa';
 }

@@ -8,8 +8,10 @@ function login(navigateTo) {
 
     section.setAttribute('id', 'sectionHome')
     buttonGoLogin.setAttribute( 'id', 'botonlogin')
+    buttonGoRegister.setAttribute('id', 'botonregister')
 
     imgLogo.src = logo  
+    imgLogo.setAttribute('id','logo')
 
     buttonGoLogin.textContent = 'Acceder a Cuenta';
   
