@@ -1,39 +1,44 @@
 // file main.js finished
-import {getPosts} from '../lib/services';
-import logo from './images/logo.png'
+import { getPosts } from '../lib/services';
+import logo from './images/logo.png';
 
 function wall(navigateTo) {
-    const section = document.createElement('section');
-    const title = document.createElement('h2');
-    const post = document.createElement('textarea');
-    const buttonPost = document.createElement('button')
-    const postText = document.createElement('p')
-    const imgLogo = document.createElement ('img')
+  const section = document.createElement('section');
+  const title = document.createElement('h2');
+  const post = document.createElement('textarea');
+  const buttonPost = document.createElement('button');
+  const postText = document.createElement('p');
+  const imgLogo = document.createElement('img');
+  const logOut = document.createElement('button');
 
-    imgLogo.src = logo
-    imgLogo.setAttribute('id','logo')
+  logOut.setAttribute('id', 'outButton');
+  logOut.innerText = 'Log Out';
 
-    post.setAttribute ('id', 'textArea')
+  imgLogo.src = logo;
+  imgLogo.setAttribute('id', 'logo');
 
-    buttonPost.setAttribute ('id','postit')
-    post.placeholder = 'Your Vegan Tips...';
+  post.setAttribute('id', 'textArea');
 
-    title.textContent = 'Vegan tips for a better life and happy food :)';
+  postText.setAttribute('id', 'posteo');
 
-    buttonPost.addEventListener('click', () => {
-    postText.innerText = post.value
-    });
-  
+  buttonPost.setAttribute('id', 'postit');
+  post.placeholder = 'Your Vegan Tips...';
 
-    buttonPost.textContent ='Post';
-    getPosts(post.value)
+  title.textContent = 'Vegan tips for a better life and happy food :)';
 
+  logOut.addEventListener('click', () => {
+    navigateTo('/home');
+  });
 
-    section.append(imgLogo,title, post, buttonPost, postText);
-    return section;
-  
-  }
-  
-  export default wall;
+  buttonPost.addEventListener('click', () => {
+    postText.innerText = post.value;
+  });
 
-  
+  buttonPost.textContent = 'Post';
+  getPosts(post.value);
+
+  section.append(imgLogo, title, post, buttonPost, postText, logOut);
+  return section;
+}
+
+export default wall;

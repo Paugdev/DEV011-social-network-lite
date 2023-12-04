@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
 
 h2{
-    font-family: 'Comfortaa';
+    font-family: 'Comfortaa', sans-serif;
     font-size: medium;
     color: rgb(57, 57, 57);
 }
@@ -14,12 +14,13 @@ h2{
 #botonlogin{
     border-radius: 10px;
     border: 2px;
-    font-family: 'Comfortaa';
+    font-family: 'Comfortaa', sans-serif;
     color: rgb(62, 62, 62);
-    padding: 10px;
     background-color: rgb(148, 250, 189);
     display:block;
     margin: 10px;
+    cursor: pointer;
+    padding: 15px 25px;
     
 
 }
@@ -28,21 +29,14 @@ h2{
 #botonregister{
     border-radius: 10px;
     border: 2px;
-    font-family: 'Comfortaa';
+    font-family: 'Comfortaa', sans-serif;
     color:rgb(47, 47, 46);
     padding: 10px;
     background-color: rgb(255, 176, 197);
     display: block;
     margin:8px;
-
-}
-
-#registroboton{
-    border: 2px;
-    border-radius: 10px;
-    font-family: 'Comfortaa';
-    position: center;
-    box-shadow: 10px;
+    cursor: pointer;
+    padding: 15px 25px;
 }
 
 #logo{
@@ -55,30 +49,27 @@ h2{
 .inputsform{
     display: list-item;
     border-radius: 10px;
-    font-family: 'Comfortaa';
+    font-family: 'Comfortaa', sans-serif;
 }
 
 #correo{
     border-radius: 10px;
-    font-family: 'Comfortaa';
+    font-family: 'Comfortaa', sans-serif;
 
 }
 
-.pass{
-    border-radius: 10px;
-    font-family: 'Comfortaa';
-
-}
 .inputlog{
     border: 1px solid;
     border-radius: 10px;
-    font-family: 'Comfortaa';
+    font-family: 'Comfortaa', sans-serif;
     padding: 10px;
     margin:8px;
     position: center;
     box-shadow: 10px;
     display:block;
-}
+    background-color: rgb(199, 255, 229);
+ }
+
     
 .divform{
     display: flex;
@@ -91,14 +82,21 @@ h2{
 #botongo{
     margin: 0 auto;
     border-radius: 10px;
-    font-family: 'Comfortaa';
+    font-family: 'Comfortaa', sans-serif;
+    cursor: pointer;
+    padding: 15px 25px;
+    background-color: rgb(175, 255, 199)0, 255, 162);
 
 }
 
 #botonreturn{
     margin: 0 auto;
     border: 10px;
-    font-family: 'Comfortaa';
+    border-radius: 10px;
+    font-family: 'Comfortaa', sans-serif;
+    background-color: rgb(255, 165, 219);
+    cursor: pointer;
+    padding: 15px 25px;
 
 }
 
@@ -124,31 +122,34 @@ h2{
 #registroboton{
     margin: 0 auto;
     border: 10px;
-    font-family: 'Comfortaa';
+    font-family: 'Comfortaa', sans-serif;
+    padding: 15px 25px;
+    
 
 }
 
 #inputsRegister{
     border: 1px solid;
     border-radius: 10px;
-    font-family: 'Comfortaa';
+    font-family: 'Comfortaa', sans-serif;
     padding: 10px;
     margin:8px;
     position: center;
     box-shadow: 10px;
     display:block;
+    background-color:rgb(170, 255, 167);
 }
 
 .pass{
     margin: 0 auto;
     border: 10px;
-    font-family: 'Comfortaa';
+    font-family: 'Comfortaa', sans-serif;
 }
 
 #correo{
     margin: 0 auto;
     border: 10px;
-    font-family: 'Comfortaa';
+    font-family: 'Comfortaa', sans-serif;
     
 }
 
@@ -160,11 +161,31 @@ h2{
     resize: none;
     background-color: rgb(202, 252, 200);
     color: rgb(49, 49, 49);
-    font-family: 'Comfortaa';
+    font-family: 'Comfortaa', sans-serif;
 
 }
 
 
 #postit{
-    font-family: 'Comfortaa';
+    font-family: 'Comfortaa', sans-serif;
+    border-radius: 10px;
+    margin: inherit;
+    background-color: rgb(249, 158, 205)255, 0, 191;
+    padding: 15px 25px;
+}
+
+
+#posteo{
+    font-family: 'Comfortaa', sans-serif;
+    border-radius: 10px;
+    width: 346px;
+    border: 2px solid transparent;
+    background-color: rgb(253, 186, 234);
+    justify-content: center;
+}
+
+#outButton{
+    border-radius: 10px;
+    font-family: 'Comfortaa', sans-serif;
+    padding: 15px 25px;
 }

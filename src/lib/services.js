@@ -1,3 +1,4 @@
+/* eslint-disable */
 /*
   This function should clear all data from local storage
 */
