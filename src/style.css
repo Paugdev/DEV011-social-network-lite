@@ -31,7 +31,6 @@ h2{
     border: 2px;
     font-family: 'Comfortaa', sans-serif;
     color:rgb(47, 47, 46);
-    padding: 10px;
     background-color: rgb(255, 176, 197);
     display: block;
     margin:8px;
@@ -85,7 +84,7 @@ h2{
     font-family: 'Comfortaa', sans-serif;
     cursor: pointer;
     padding: 15px 25px;
-    background-color: rgb(175, 255, 199)0, 255, 162);
+    background-color: rgb((175, 255, 199)0, 255, 162);
 
 }
 
@@ -146,12 +145,6 @@ h2{
     font-family: 'Comfortaa', sans-serif;
 }
 
-#correo{
-    margin: 0 auto;
-    border: 10px;
-    font-family: 'Comfortaa', sans-serif;
-    
-}
 
 #textArea{
     border-radius: 10px;
