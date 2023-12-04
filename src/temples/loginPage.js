@@ -23,7 +23,7 @@ function loginPage(navigateTo) {
   title.textContent = 'Login';
   title.setAttribute('class', 'loginTitle');
   buttonLogin.textContent = 'go';
-  buttonLogin.setAttribute('id', 'botongo');
+  buttonLogin.setAttribute('id', 'buttongo');
 
   buttonReturn.textContent = 'Return to home';
   buttonReturn.setAttribute('id', 'botonreturn');
